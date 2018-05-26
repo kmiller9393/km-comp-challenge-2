@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #efefef;
 }
 
 header {
@@ -14,7 +15,7 @@ p {
 }
 
 h1 {
-  display: flex;
+  display: inline-flex;
   justify-content: flex-end;
   color: #fbfbfb;
   margin: -2rem 7rem 0 0;
@@ -68,11 +69,22 @@ h1 {
 
 .box {
   border: 3px solid green;
+  height: 100%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
 }
 
-.box-image {
-  width: 100%;
+
+.box-heading-text {
+
 }
+
+.box-paragraph-text {
+
+}
+
 
 .box1 {
   /*background-image: url(images/pam.jpg);
@@ -81,52 +93,59 @@ h1 {
   width: 99%;*/
 }
 
-.box2 {
+.box-head-image-1 {
   background-image: url(images/steve-carell.jpg);
   background-size: cover;
-  height: 33%;
-  width: 99%;
+  height: 36%;
+  width: 100%;
 }
 
-.box3 {
+.box-head-image-2 {
+  background-image: url(images/pam.jpg);
+  background-size: cover;
+  height: 36%;
+  width: 100%;
+}
+
+.box-head-image-3 {
   background-image: url(images/dwight.jpg);
   background-size: cover;
-  height: 33%;
-  width: 99%;
+  height: 36%;
+  width: 100%;
 }
 
-.box4 {
-  background-image: url(images/jim-1.jpeg);
+.box-head-image-4 {
+  background-image: url(images/stanley.png);
   background-size: cover;
-  height: 33%;
-  width: 99%;
+  height: 36%;
+  width: 100%;
 }
 
-.box5 {
+.box-head-image-5 {
   background-image: url(images/kelly-kapoor.jpg);
   background-size: cover;
-  /*background-position: center center;*/
-  height: 33%;
-  width: 99%;
+  background-position: center center;
+  height: 36%;
+  width: 100%;
 }
 
-.box6 {
-  background-image: url(images/dwight.jpg);
+.box-head-image-6 {
+  background-image: url(images/jim-1.jpeg);
   background-size: cover;
-  height: 33%;
-  width: 99%;
+  background-position: center center;
+  height: 36%;
+  width: 100%;
+}
+.box-head-image-7 {
+  background-image: url(images/kelly-erin.jpg);
+  background-size: cover;
+  height: 36%;
+  width: 100%;
 }
 
-.box7 {
-  background-image: url(images/dwight.jpg);
+.box-head-image-8 {
+  background-image: url(images/andy.jpg);
   background-size: cover;
-  height: 33%;
-  width: 99%;
-}
-
-.box8 {
-  background-image: url(images/dwight.jpg);
-  background-size: cover;
-  height: 33%;
-  width: 99%;
+  height: 36%;
+  width: 100%;
 }
