@@ -1,0 +1,132 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #2b2b2b;
+  height: 25vh;
+}
+
+p {
+  display: inline-flex;
+  justify-content: space-between;
+  color: #969696;
+}
+
+h1 {
+  display: flex;
+  justify-content: flex-end;
+  color: #fbfbfb;
+  margin: -2rem 7rem 0 0;
+  font-family: 'Corben', serif;
+  font-weight: 400;
+  font-size: 2.7rem;
+}
+
+#shares-small {
+  color: #f5f5f5;
+  font-weight: 300;
+}
+
+.left-header-icon {
+  padding: 4rem 0 0 1.5rem;
+  height: 1.2rem;
+  width: 1.2rem;
+  font-weight: 300;
+}
+
+#ribbon-swirl {
+  height: 3.5rem;
+  width: 3rem;
+}
+
+#username-icon {
+  height: 1rem;
+  width: 1rem;
+  z-index: 1;
+}
+
+#admin-username-text {
+  color: #0290ca;
+}
+
+#funnel {
+  height: .9rem;
+  width: .9rem;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 22%);
+  grid-template-rows: repeat(2, 60vh);
+}
+
+.arrow-icon {
+  height: 4rem;
+  width: 4rem;
+}
+
+.box {
+  border: 3px solid green;
+}
+
+.box-image {
+  width: 100%;
+}
+
+.box1 {
+  /*background-image: url(images/pam.jpg);
+  background-size: cover;
+  height: 33%;
+  width: 99%;*/
+}
+
+.box2 {
+  background-image: url(images/steve-carell.jpg);
+  background-size: cover;
+  height: 33%;
+  width: 99%;
+}
+
+.box3 {
+  background-image: url(images/dwight.jpg);
+  background-size: cover;
+  height: 33%;
+  width: 99%;
+}
+
+.box4 {
+  background-image: url(images/jim-1.jpeg);
+  background-size: cover;
+  height: 33%;
+  width: 99%;
+}
+
+.box5 {
+  background-image: url(images/kelly-kapoor.jpg);
+  background-size: cover;
+  /*background-position: center center;*/
+  height: 33%;
+  width: 99%;
+}
+
+.box6 {
+  background-image: url(images/dwight.jpg);
+  background-size: cover;
+  height: 33%;
+  width: 99%;
+}
+
+.box7 {
+  background-image: url(images/dwight.jpg);
+  background-size: cover;
+  height: 33%;
+  width: 99%;
+}
+
+.box8 {
+  background-image: url(images/dwight.jpg);
+  background-size: cover;
+  height: 33%;
+  width: 99%;
+}
