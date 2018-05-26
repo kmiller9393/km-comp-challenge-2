@@ -5,13 +5,12 @@ body {
 
 header {
   background-color: #2b2b2b;
-  height: 25vh;
+  height: 22vh;
 }
 
 p {
   display: inline-flex;
   justify-content: space-between;
-  color: #969696;
 }
 
 h1 {
@@ -22,6 +21,26 @@ h1 {
   font-family: 'Corben', serif;
   font-weight: 400;
   font-size: 2.7rem;
+}
+
+h2 {
+  margin: 3rem 0 .5rem 1.2rem;
+  color: #4e4e4e;
+  font-size: 2.7rem;
+  font-weight: 400;
+}
+
+a {
+   text-decoration: none;
+   background-color: lightgray;
+   background-color: #efefef;
+   color: #898989;
+   white-space: pre-wrap;   
+   white-space: -moz-pre-wrap;
+   white-space: -pre-wrap;    
+   white-space: -o-pre-wrap;
+   word-wrap: break-word;
+   border-width: 
 }
 
 #shares-small {
@@ -58,33 +77,102 @@ h1 {
 
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(4, 22%);
-  grid-template-rows: repeat(2, 60vh);
+  grid-template-columns: repeat(4, 24.3%);
+  grid-template-rows: repeat(2, 62vh);
 }
 
 .arrow-icon {
-  height: 4rem;
-  width: 4rem;
+  height: 4.3rem;
+  width: 4.3rem;
+  margin: .9rem 0 0 .9rem;
+  background-color: #fff;
+  border-radius: 50%;
 }
 
 .box {
-  border: 3px solid green;
   height: 100%;
+  margin: 2rem 0 0 1.2rem;
+  background-color: #fff;
   box-shadow: 0 0 10px rgba(0,0,0,0.6);
   -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
   -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
 }
 
+.contents-top-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
-.box-heading-text {
+.views-top-box {
+  color: #fff;
+  font-size: .85rem;
+  letter-spacing: .05rem;
+  padding: .5rem 1.5rem 0 0;
+}
 
+.number-top-box {
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+  font-size: 2.3rem;
+  margin-top: -2.8rem;
+  font-weight: 300;
+  padding: 0 1.7rem 4rem 0;
+}
+
+.box-header-text {
+  color: #4e4545;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin: 1rem 0 0 1rem;
 }
 
 .box-paragraph-text {
-
+  margin: 0 0 1.4rem 1rem;
+  font-size: .9rem;
+  color: #98999b;
 }
 
+.link-text {
+  margin: 0rem 1.2rem 0 1.2rem;
+  color: #808080;
+  display: block;
+  font-size: .9rem;
+  padding: .8rem 0 .75rem .75rem;
+}
+
+.playlist {
+  display: block;
+  color: #565656;
+  margin: 1.4rem 0 0 1rem;
+  font-size: .85rem;
+}
+
+.playlist-name {
+  display: block;
+  color: #565656;
+  margin: .3rem 0 0 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.attachments {
+  display: block;
+  color: #565656;
+  font-size: .8rem;
+  font-weight: 500;
+  margin: 1.3rem 0 0 1rem;
+}
+
+.bottom-number {
+  display: block;
+  color: #00b4ff;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin: .4rem 0 0 1rem;
+}
 
 .box1 {
   /*background-image: url(images/pam.jpg);
@@ -93,36 +181,65 @@ h1 {
   width: 99%;*/
 }
 
+.box5, .box6, .box7, .box8 {
+  margin: 3rem 0 2rem 1.2rem;
+}
+
 .box-head-image-1 {
-  background-image: url(images/steve-carell.jpg);
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(images/steve-carell.jpg);
   background-size: cover;
   height: 36%;
   width: 100%;
 }
 
 .box-head-image-2 {
-  background-image: url(images/pam.jpg);
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(images/pam.jpg);
   background-size: cover;
   height: 36%;
   width: 100%;
 }
 
 .box-head-image-3 {
-  background-image: url(images/dwight.jpg);
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(images/dwight.jpg);
   background-size: cover;
   height: 36%;
   width: 100%;
 }
 
 .box-head-image-4 {
-  background-image: url(images/stanley.png);
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(images/stanley.png);
   background-size: cover;
   height: 36%;
   width: 100%;
 }
 
 .box-head-image-5 {
-  background-image: url(images/kelly-kapoor.jpg);
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ), 
+    url(images/kelly-kapoor.jpg);
   background-size: cover;
   background-position: center center;
   height: 36%;
@@ -130,21 +247,36 @@ h1 {
 }
 
 .box-head-image-6 {
-  background-image: url(images/jim-1.jpeg);
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(images/jim-1.jpeg);
   background-size: cover;
   background-position: center center;
   height: 36%;
   width: 100%;
 }
 .box-head-image-7 {
-  background-image: url(images/kelly-erin.jpg);
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(images/kelly-erin.jpg);
   background-size: cover;
   height: 36%;
   width: 100%;
 }
 
 .box-head-image-8 {
-  background-image: url(images/andy.jpg);
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(images/andy.jpg);
   background-size: cover;
   height: 36%;
   width: 100%;
