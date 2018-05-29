@@ -78,8 +78,13 @@ a {
 
 #shares-small {
   color: #f5f5f5;
+  cursor: pointer;
   font-weight: 300;
   font-size: 1.3rem;
+}
+
+#shares-small:hover {
+  color: cyan;
 }
 
 .left-header-icon {
@@ -88,6 +93,14 @@ a {
   height: 1.3rem;
   padding: 4rem .5rem 0 2.3rem;
   width: 1.3rem;
+}
+
+.header-text {
+  cursor: pointer;
+}
+
+.header-text:hover {
+  color: cyan;
 }
 
 #ribbon-swirl {
